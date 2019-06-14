@@ -4,11 +4,39 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shorcut icon" type="image/x-icon" href="imagenes/favicon.ico">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <div id = "incio">
+      <h1>"CODE MILITARIS"</h1></br>
+      <div id="imagenes">
+         <img class="imagen-one" src="imagenes/casco.png" />
+         <img class="imagen-two" src="imagenes/candado.png"/>
+      </div>
+      
+         <h2>Selecciona una opción</h2>
+         <input type="button" id="option-c" value="CODIFICAR">
+         <input type="button" id="option-d" value="DECODIFICAR">
+ </div>
+
+ <div id = "opcion-codificar">
+ </br>
+     <p>Offset:</p>
+     <input type="text" id="salto-uno" placeholder="offset"></br>
+     <p>Ingresa tu mensaje a codificar: </p>
+     <input type="text" id="mensaje" placeholder="mensaje"></br></br>
+     <input type="button" id="codificar" value="CIFRAR"></br></br>
+     <p id="mostrar-cifrado"></p>
+ </div>
+
+ <div id = "opcion-decodificar">
+     <p>OFFSET:</p>
+     <input type="text" id = "salto-dos" placeholder="Ingresa el salto"></br>
+     <p>Ingresa el texto codificado:</p>
+     <input type="text" id="mensaje-codificado" placeholder="Ingresa tu texto cifrado"></br></br>
+     <input type="button" id="decodificar" value="DESCIFRAR">
+     <p id="msj-original"></p>
+ </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

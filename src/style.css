@@ -1,0 +1,39 @@
+body{
+    background: rgba(29 , 131 , 72 , 0.9);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: "Franklin Gothic Medium";
+    border: 5px outset;
+    background: rgba(20,90,50);
+}
+
+#imagenes{
+    width: 60%;
+    margin: auto;
+}
+
+img{
+    width: 40%;    
+    height: auto;
+   }
+
+   
+h2{
+    text-align: center;
+    font-family: "Trebuchet MS"    
+}
+
+#opcion-codificar{
+    visibility: hidden;
+    border: solid;
+    background: #FFFF00;
+}
+
+#opcion-decodificar{
+    visibility: hidden;
+    border: solid;
+    background: rgb(221, 133, 17);
+}
