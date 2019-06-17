@@ -9,7 +9,9 @@ window.cipher = {
     }else if(letter >= 97 && letter <= 122){
         const newASCII = (letter - 97 + n) % 26 + 97;
         newLetters.push(String.fromCharCode(newASCII));
-      };
+    }else if (letter == '32'){
+        newLetters.push(String.fromCharCode(letter));
+    };  
     };
     const newStr = newLetters.join('');
     return newStr;
