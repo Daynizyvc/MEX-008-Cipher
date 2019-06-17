@@ -19,24 +19,20 @@ const boton2 = () =>{
 }
 botonDecodificar.addEventListener('click', boton2);
 
-//funcion que cifra
-const encode = require('./cipher.js');
+
 
 const cipherEvent = () => {  
     const getMensaje = document.getElementById("mensaje").value;
     const n = new Number(document.getElementById("salto-uno").value);
-    //console.log('n', n);
-    const textoNuevo = encode(getMensaje, n);
-    resultado.innerHTML = 'Tu mensaje cifrado es:' + ' ' + textoNuevo;
-    //console.log(textoNuevo);
-  }
+    let funcionCipher = (window.cipher.encode( n, getMensaje));
+    resultado.innerHTML = 'Tu mensaje cifrado es:' + ' ' + funcionCipher;
+    }
 
-const decode = require('./cipher.js');
 const decipherEvent = () => {
     const getMensajeA = document.getElementById("mensaje-codificado").value;
     const nA = new Number(document.getElementById("salto-dos").value);
-    const mensajeDescifrado = decode(getMensajeA, nA);
-    resDecodificar.innerHTML = 'Tu mensaje original es:' + ' ' + mensajeDescifrado;
+    const funcionDecipher = (window.cipher.decode( nA, getMensajeA));
+    resDecodificar.innerHTML = 'Tu mensaje original es:' + ' ' + funcionDecipher;
   };
 botonCode.addEventListener("click",cipherEvent); 
 botonDecode.addEventListener("click",decipherEvent); 
