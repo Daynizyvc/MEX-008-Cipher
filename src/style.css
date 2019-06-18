@@ -1,3 +1,7 @@
+@font-face{
+    font-family: LettersLearners;
+    src: url(LettersLearners.ttf);
+}
 body{
     background: rgba(29 , 131 , 72 , 0.9);
 }
@@ -24,6 +28,47 @@ img{
 h2{
     text-align: center;
     font-family: "Trebuchet MS"    
+}
+
+.botones{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.option-c{
+    font-size: 30px;
+    padding: 10px;
+     background-color: #b7c5af;
+    border: 4px solid #296d07;
+    border-radius: 20px;
+    color: #020700;
+    font-weight: 500; 
+    font-family: 'LettersLearners'; 
+ }
+
+.option-c:hover{
+    color: #fffffd;
+    background-color: #306416;
+    border: solid #d3ea9f;
+}
+
+#option-d{
+    font-size: 30px;
+    padding: 10px;
+    background-color: #b7c5af;
+    border: 4px solid #296d07;
+    border-radius: 20px;
+    color: #020700;
+    font-weight: 500; 
+    font-family: 'LettersLearners'; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#option-d:hover{
+    color: #fffffd;
+    background-color: #306416;
+    border: solid #d3ea9f;
 }
 
 #opcion-codificar{
