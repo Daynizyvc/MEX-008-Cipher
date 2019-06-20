@@ -1,5 +1,21 @@
 # Cifrado César
 
+#Sobre la app
+
+Esta app fue pensada para solucionar el problema de comunicación entre los elementos de una compañia de Policia Militar encargada de brindar la seguridad a un Campo Militar. 
+
+![imagen-militares](https://png.pngtree.com/element_origin_min_pic/17/08/02/75c51caaa21c735cbbcc205418c18b14.jpg)
+
+Los objetivos de esta aplicación es mejorar la comuncación y coordinación entre el comandante de la compañia y sus elementos en el control de acceso al campo.
+
+La comunicación entre los militares es a través de un radio, esto hace que el mensaje enviado sea escuchado por todas las personas alrededor, con esta app se pretende que solo el emisor y el receptor conozcan el mensaje enviado y que exista una mejor coordinacion en cuanto seguridad.
+
+![imagen-comuncacion](http://www.es.clipproject.info/images/joomgallery/details/militar_dibujos_28/militar_dibujo_6_20101229_1272166847.gif)
+
+#Para usar esta app, ingrese al siguiente link:
+
+https://daynizyvc.github.io/MEX-008-Cipher/src/
+
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
