@@ -1,38 +1,48 @@
-@font-face{
-    font-family: LettersLearners;
-    src: url(LettersLearners.ttf);
-}
 body{
-    background: rgba(29 , 131 , 72 , 0.9);
+    background: url(imagenes/clementine_military_paper2.jpg);
 }
-h1{
-    text-align: center;
-    color: aliceblue;
-    font-size: x-large;
-    font-family: "Franklin Gothic Medium";
-    border: 5px outset;
-    background: rgba(20,90,50);
+#padre{
+    display: flex;
+    justify-content: center;
+    height: 35%;
+    align-items: center;
 }
 
-#imagenes{
-    width: 60%;
-    margin: auto;
+#titulo{
+    text-align: center;
+    color: aliceblue;
+    width: 50%;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+    border: 5px outset;
+    background: rgba(20,90,50);
+    display: flex;
+    height: inherit; 
+    padding: 0, 10%;  
+    margin: left;
+    font-family: 'Swanky and Moo Moo', cursive;
+
 }
 
 img{
-    width: 40%;    
-    height: auto;
-   }
-
-   
-h2{
-    text-align: center;
-    font-family: "Trebuchet MS"    
+    width: 35%;    
+    height: inhereit;
+    
 }
 
-.botones{
-    display:table-cell;
-    vertical-align:middle;
+#imagenes{
+    width: 35%;
+    margin: right;
+    display: flex;
+    height: inherit;
+}
+
+#imagen{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    height: inherit;
 }
 
 .option-c{
@@ -44,6 +54,7 @@ h2{
     color: #020700;
     font-weight: 500; 
     font-family: 'LettersLearners'; 
+    align-self: center;
  }
 
 .option-c:hover{
@@ -73,12 +84,38 @@ h2{
 
 #opcion-codificar{
     visibility: hidden;
-    border: solid;
-    background: #FFFF00;
+    border: 5px double;
+    border-radius: 20px;    
+    background: (106, 147, 15, 0.7);
 }
 
 #opcion-decodificar{
     visibility: hidden;
-    border: solid;
-    background: rgb(221, 133, 17);
+    border: 5px double;
+    border-radius: 20px;    
+    background: (106, 147, 15, 0.7);
+}
+
+#enviar{
+    font-size: 30px;
+    padding: 10px;
+     background-color: #b7c5af;
+    border: 4px solid #296d07;
+    border-radius: 20px;
+    color: #020700;
+    font-weight: 500; 
+    font-family: 'LettersLearners'; 
+    align-self: center;
+}
+
+#salir{
+    font-size: 30px;
+    padding: 10px;
+     background-color: #b7c5af;
+    border: 4px solid #296d07;
+    border-radius: 20px;
+    color: #020700;
+    font-weight: 500; 
+    font-family: 'LettersLearners'; 
+    align-self: center;
 }

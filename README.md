@@ -1,6 +1,6 @@
 # Cifrado César
 
-#Sobre la app
+##Sobre la app
 
 Esta app fue pensada para solucionar el problema de comunicación entre los elementos de una compañia de Policia Militar encargada de brindar la seguridad a un Campo Militar. 
 
@@ -12,7 +12,7 @@ La comunicación entre los militares es a través de un radio, esto hace que el 
 
 ![imagen-comuncacion](http://www.es.clipproject.info/images/joomgallery/details/militar_dibujos_28/militar_dibujo_6_20101229_1272166847.gif)
 
-#Para usar esta app, ingrese al siguiente link:
+##Para usar esta app, ingrese al siguiente link:
 
 https://daynizyvc.github.io/MEX-008-Cipher/src/
 
